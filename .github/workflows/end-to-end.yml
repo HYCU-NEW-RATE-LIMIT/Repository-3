@@ -13,12 +13,17 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Install custom-action dependencies
+        run: |
+          cd custom-action
+          npm install
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
 
-      - name: Install dependencies (if present)
+      - name: Install root dependencies (if present)
         run: |
           if [ -f package.json ]; then npm install; fi
 
