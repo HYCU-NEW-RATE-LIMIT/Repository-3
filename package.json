@@ -1,0 +1,11 @@
+{
+  "name": "repository-3",
+  "version": "1.0.0",
+  "description": "Sample project for end-to-end GitHub Actions workflow with custom action and artifact production.",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo Build step executed!"
+  },
+  "author": "",
+  "license": "MIT"
+}
