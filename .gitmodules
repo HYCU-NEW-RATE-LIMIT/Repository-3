@@ -1,0 +1,3 @@
+[submodule "third-party-action"]
+	path = third-party-action
+	url = https://github.com/actions/checkout
