@@ -1,3 +1,6 @@
 [submodule "third-party-action"]
 	path = third-party-action
 	url = https://github.com/actions/checkout
+[submodule "my-action-submodule"]
+	path = my-action-submodule
+	url = C:/Users/ShreeshaHD/Documents/my-action-repo
