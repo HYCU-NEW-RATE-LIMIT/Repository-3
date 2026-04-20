@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git archive *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git ls-tree *)",
+      "Bash(python3 -c ' *)",
+      "Bash(python -c ' *)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(echo \"exit:$? bytes:$\\(wc -c < out.tar\\)\")",
+      "Bash(echo \"exit:$? bytes:$\\(wc -c < out2.tar\\)\")",
+      "Bash(rm out*.tar)",
+      "Bash(echo \"exit:$? bytes:$\\(wc -c < out.tar.gz\\)\")",
+      "Bash(git submodule *)",
+      "Bash(git -C /c/Users/ShreeshaHD/Documents/test-action-repo remote -v)",
+      "Bash(git -C /c/Users/ShreeshaHD/Documents/test-action-repo log --oneline)",
+      "Bash(gh auth *)",
+      "Bash(git config *)",
+      "Bash(curl --version)",
+      "Bash(env)"
+    ]
+  }
+}
